@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contents_title {
+    text-align: center;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    width: 400px;
+}
+
+.red {
+    background-color: red;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card_area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_box {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.card_box img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 896px){
+    .card_area {
+        flex-wrap: wrap;
+    }
+    .card_box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+
